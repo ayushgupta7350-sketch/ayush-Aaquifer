@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* Top Navigation */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.8rem;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.quote-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+/* Hero Content Area */
+.hero-section {
+    display: flex;
+    height: 80vh;
+}
+
+/* Vertical Sidebar */
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    width: 250px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar-links a {
+    text-decoration: none;
+    color: #999;
+    font-size: 0.75rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.sidebar-links a.active {
+    color: #000;
+}
+
+/* Main Heading Area */
+.hero-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    font-weight: 400;
+    color: #222;
+    margin-bottom: 50px;
+}
+
+.category-tabs {
+    display: flex;
+    gap: 30px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #333;
+}
